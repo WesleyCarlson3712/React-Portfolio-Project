@@ -1,5 +1,5 @@
 export const mainPageContainer = {
-    backgroundColor: "lightblue",
+    backgroundColor: "#ffffff",
     padding: "1.5rem",
     height: "100vh",
     display: "flex",
