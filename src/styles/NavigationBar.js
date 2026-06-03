@@ -1,6 +1,6 @@
 export const navigationBar = {
     backgroundColor: "#5a86d8",
-    paddingY: 1,
+    paddingY: "1rem",
     display: "flex",
     width: "50rem",
     gap: "5rem",
@@ -10,7 +10,8 @@ export const navigationBar = {
 export const navButton = {
     fontWeight: "bold",
     textTransform: "none",
-    paddingX: 2,
+    width: "6rem",
+    height: "2.5rem",
     border: "solid 1px black",
     color: "black",
     backgroundColor: "#ffffff",
@@ -19,5 +20,6 @@ export const navButton = {
     "&:hover": {
       backgroundColor: "#e4e4e4",
     }
+    
 };
 
