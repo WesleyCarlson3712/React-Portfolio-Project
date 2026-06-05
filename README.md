@@ -2,7 +2,7 @@
 
 This is my portfolio web app that I made as a 2 week project to learn React. This project has been my first time making any kind of website, so I have learned a lot while working on this. As of right now the website can only be hosted as a local server, but as I learn more about web developement I may make it accessible on the internet.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/JT5VqTUA_PU)
 
 # Web Pages
 My website has 4 pages, a Home page, an About page, a Projects page, and a Contact page. You can navigate between each page via the buttons on the navigation bar at the top of the page. Because of the way react works, everything takes place on a single url with the content dinamically generated for each page.
@@ -14,7 +14,9 @@ I used visual studio code for the creation of this project. All the code is writ
 # Useful Websites
 
 * [Copilot AI](https://copilot.microsoft.com/)
+For some small bits of help, though I did not do much copy and pasting
 * [W3schools](https://www.w3schools.com/REACT/default.asp)
+A good tutorial for react
 
 # Future Work
 Some of my plans to improve upon this project:

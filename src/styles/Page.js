@@ -33,7 +33,7 @@ export const projectBox = (direction = "row") => ({
   display: "flex",
   flexDirection: direction,
   // Use `flex-start` to align children at the top/start of the cross axis.
-  alignItems: "flex-start",
+  alignItems: "top",
   border: "solid 1px black",
   padding: "1rem",
   gap: "1rem",
