@@ -12,6 +12,7 @@ export const pageContainer = {
   };
 export const innerPageContainer = {
     padding: "2rem",
+    gap: "1rem",
     backgroundColor: "#ffffff",
     boxShadow: "0 10px 30px rgba(0, 0, 0, 0.15), 0 4px 10px rgba(0, 0, 0, 0.1)",
     width: "100%",
@@ -22,4 +23,29 @@ export const innerPageContainer = {
     border: "solid 1px black",
     boxSizing: "border-box",
     flex: "1 0 auto",
+
+};
+export const projectBox = (direction) => ({
+  display: "flex",
+  flexDirection: direction,
+  alignItems: "top",
+  border: "solid 1px black",
+  padding: "1rem",
+  gap: "1rem",
+  backgroundColor: "#dfdfdf",
+});
+export const textContainer = {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    textAlign: "center",
+    gap: "1rem",   
+};
+export const contactTextContainer = {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "left",
+    textAlign: "left",
+    border: "solid 1px black",
+    padding: "1rem",
 };
