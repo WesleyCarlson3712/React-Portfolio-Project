@@ -1,31 +1,29 @@
-import { Button, Typography, Box} from '@mui/material'
+// App root: manages which page component is shown and provides the main layout container.
+import { Box } from '@mui/material'
 import { useState } from 'react'
 import Home from './Home.jsx'
 import About from './About.jsx'
 import Projects from './Projects.jsx'
 import Contact from './Contact.jsx'
 
-import {mainPageContainer} from './styles/app.js'
-import NavigationBar from './Navigationbar.jsx'
+// Import the main page container style. Use the exact filename casing used in the project.
+import { mainPageContainer } from './styles/App.js'
+import NavigationBar from './NavigationBar.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [currentPage, setCurrentPage] = useState(<Home/>)
+  // Track which page component is currently displayed. We store the component instance
+  // and swap it when the navigation bar requests a change.
+  const [currentPage, setCurrentPage] = useState(<Home />)
 
-  function incrementCounter(){
-    setCount(count + 1)
-  };
-  
   return (
     <>
       <Box sx={mainPageContainer}>
-        <NavigationBar setCurrentPage={setCurrentPage}/>
+        {/* NavigationBar receives a setter to change the displayed page */}
+        <NavigationBar setCurrentPage={setCurrentPage} />
         {currentPage}
       </Box>
-      {/* {renderPage()} */}
     </>
-    )
+  )
 }
-
 
 export default App
